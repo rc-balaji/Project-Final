@@ -1,0 +1,67 @@
+/* CVEList.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    /* Adding a light border around the entire table */
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    /* Light bottom border for separation */
+    border-right: 1px solid #ddd;
+    /* Light right border for separation */
+}
+
+th {
+    background-color: #ddd;
+    color: black;
+    border-bottom: 2px solid #bbb;
+    /* Slightly darker border for headers */
+}
+
+tr {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+select {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* Subtle border for dropdown */
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #a7a7a7;
+}
+
+button:hover {
+    background-color: #444844;
+}
